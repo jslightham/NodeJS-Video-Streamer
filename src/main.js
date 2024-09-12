@@ -14,9 +14,9 @@ Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 
-import Video from './components/Video.vue';
-import Upload from './components/Upload.vue';
-import Home from './components/Home.vue';
+import Video from './pages/Video.vue';
+import Upload from './pages/Upload.vue';
+import Home from './pages/Home.vue';
 import VueVideoPlayer from 'vue-video-player'
 Vue.use(VueVideoPlayer);
 
